@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://CemKazan.github.io
 
 languageCode: en-us
-title: "John's Blog"
+title: "Cem Kazan"
 
 # Use Hugo modules to add theme
 module:
@@ -23,9 +23,9 @@ languages:
   en:
     languageName: English
     weight: 1
-  bn:
-    languageName: বাংলা
-    weight: 3
+  # bn:
+  #   languageName: বাংলা
+  #   weight: 3
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 # DefaultContentLanguage: bn
@@ -64,7 +64,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/SamKazan/CemKazan.github.io
   # Default branch of your Git repo
   gitBranch: main
 
@@ -140,7 +140,7 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
+      enabled: false
       services:
         # Google Analytics
         google:
